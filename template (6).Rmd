@@ -45,19 +45,6 @@ ggplot(plot_df,aes(x=x,y=y))+geom_point()
 
 ## Plot from last time
 
-This a a quick kind of solution to LA
-
-```{r}
- la_df=
-  tibble(
-    norm=rnorm(n=500,mean=1),
-    logical=norm>0,
-    abs_norm=abs(norm)
-  )
-
-ggplot(la_df,aes(x=abs_norm))+geom_histogram()
-
-```
 
 Here's a list:
     
